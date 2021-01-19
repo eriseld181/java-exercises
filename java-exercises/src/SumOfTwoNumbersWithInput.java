@@ -13,8 +13,9 @@ int s = sum(nr1, nr2);
 		System.out.println("The sum of "+ nr1 +" + "+nr2 +" = "+s +".");
 	
 }
-public static int sum(int nr1, int nr2) {int result;
-return result = nr1+nr2;
+public static int sum(int nr1, int nr2) {
+	
+	return  nr1+nr2;
 
 }
 }
