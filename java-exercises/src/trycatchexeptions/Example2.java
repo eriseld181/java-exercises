@@ -18,7 +18,7 @@ catch(ArithmeticException e) {
 catch(ArrayIndexOutOfBoundsException e) {
 	System.out.println("Warning: ArrayIndexOutOfBoundsException");
 }
-catch(Exception e) {
+catch(Exception e) { 
 	System.out.println("Warning: Another Exception");
 }
 	}

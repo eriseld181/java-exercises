@@ -7,7 +7,7 @@ private static Scanner in;
 public static void main(String[] args) {
 	in = new Scanner(System.in);
 	ArrayList<Double> list = new ArrayList<Double>();
-	System.out.print("Input students grades: "); 
+	System.out.print("Input 5 students grades: "); 
 	double nr1 = in.nextDouble();
 	double nr2 = in.nextDouble();
 	double nr3 = in.nextDouble();
@@ -30,7 +30,7 @@ public static void main(String[] args) {
 		
 	}
 	average = sum/list.size();
-	System.out.println("Mesatarja eshte " + average);
+	System.out.println("Average of student grades are " + average);
 
 }
 }
